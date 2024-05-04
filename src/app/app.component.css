@@ -1,0 +1,100 @@
+table {
+  border-collapse: collapse;
+}
+
+table,
+thead,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.left {
+  width: 50%;
+  padding: 20px;
+}
+
+.right {
+  width: 50%;
+  padding: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.updateBtn {
+  background-color: #008cba;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.deleteBtn {
+  background-color: #f44336;
+  padding: 8px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  opacity: 0.8;
+}
+
+.editBtn {
+  background-color: #008cba;
+  padding: 8px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+}
